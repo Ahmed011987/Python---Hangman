@@ -1,0 +1,57 @@
+Hangman – Python
+
+A command-line implementation of the classic Hangman game built using Python.
+The player guesses letters to reveal a hidden word while managing limited lives. The program provides clear feedback for correct, incorrect, and repeated guesses, along with visual life tracking using ASCII art.
+
+This project focuses on building strong fundamentals in Python, including control flow, input validation, and state management.
+
+Features:
+- Random word selection from predefined word list
+- Tracks correct and incorrect guesses separately
+- Prevents duplicate penalties for repeated incorrect guesses
+- Input validation (accepts only single alphabet letters)
+- Visual representation of remaining lives using ASCII art
+- Clear win and lose messages
+- Clean and readable logic structure
+
+Concepts practiced:
+
+- Python loops (while, for)
+- Conditional statements (if, elif, else)
+- Lists for state tracking
+- String manipulation
+- Input validation
+- Modular file usage
+- Basic game logic design
+
+Example Gameplay:
+
+Hello & welcome to Hangman, Ahmed.
+
+Word to guess: _ _ _ _ _
+
+6/6 LIVES LEFT
+Guess a letter: a
+
+Word to guess: a _ _ _ _
+
+Guess a letter: z
+Incorrect guess. You lose a life.
+
+5/6 LIVES LEFT
+Guess a letter: z
+You have already guessed z, and it is incorrect. No lives lost.
+
+Guess a letter: @
+Invalid input. Please enter a single letter only.
+
+Guess a letter: e
+
+Congratulations! You guessed the word correctly.
+YOU WIN
+
+Try the Game:
+
+Run the live version here:
+
+Replit:
